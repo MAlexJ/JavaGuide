@@ -21,6 +21,9 @@ class CallWaiting implements Runnable {
 
                 if (count == 19) {
                     time = Calendar.getInstance().getTimeInMillis();
+                    // WatchDog => wait
+
+                    // WatchDog => notify
                 }
             } catch (InterruptedException e) {
                 e.printStackTrace();
