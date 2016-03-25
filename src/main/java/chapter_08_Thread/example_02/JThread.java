@@ -14,6 +14,6 @@ public class JThread extends Thread {
         } catch (InterruptedException e) {
             System.out.println("Поток прерван");
         }
-        System.out.printf("-->> Поток %s завершил работу... \n", Thread.currentThread().getName());
+        System.out.printf("->> Поток %s завершил работу... \n", Thread.currentThread().getName());
     }
 }
