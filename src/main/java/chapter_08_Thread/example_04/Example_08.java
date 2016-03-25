@@ -7,6 +7,8 @@ public class Example_08 {
     static volatile boolean stop = true;
 
     public static void main(String[] args) throws InterruptedException {
+        // login
+
         System.out.printf("Поток %s начал работу... \n", Thread.currentThread().getName());
 
         Thread threadWatchDog = new Thread(new WatchDog(), "WatchDog");
@@ -21,6 +23,8 @@ public class Example_08 {
         System.out.println("currentTime: " + currentTime);
         System.out.println("time: " + time);
         System.out.println("stop: " + stop);
+
+        // logout
 
         System.out.printf("Поток %s завершил работу... \n", Thread.currentThread().getName());
     }

@@ -19,7 +19,7 @@ class CallWaiting implements Runnable {
                 System.out.printf("   --> Waining call, cycle number: %s \n", ++count);
                 Thread.sleep(500);
 
-                if(count==10){
+                if (count == 19) {
                     time = Calendar.getInstance().getTimeInMillis();
                 }
             } catch (InterruptedException e) {

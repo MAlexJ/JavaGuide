@@ -15,7 +15,7 @@ class WatchDog implements Runnable {
         while (stop) {
             currentTime = Calendar.getInstance().getTimeInMillis() - time;
             System.out.printf("        --> currentTime: %s \n", currentTime);
-            if (currentTime >= 12000) {
+            if (currentTime >= 20000) {
                 System.out.println("        --> End this WatchDog: currentTime: " + currentTime);
                 stop = false;
             }
