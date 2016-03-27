@@ -1,4 +1,4 @@
-package chapter_08_Thread.example_07;
+package chapter_08_Thread.example_07_wait_notify;
 
 class Consumer implements Runnable {
 
